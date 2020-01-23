@@ -1,0 +1,26 @@
+.iframe-17-9 {
+  position: relative;
+  padding-bottom: 230%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.iframe-17-9 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.iframe-17-9 iframe::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
